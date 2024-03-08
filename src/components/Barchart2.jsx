@@ -7,7 +7,7 @@ import {
 
 
 
-export class Barchart extends React.Component{
+export class Barchart2 extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
@@ -72,126 +72,126 @@ export class Barchart extends React.Component{
     const { showLine } = this.state;
     const firstChartPoints = [
       {
-        legend: 'air_conditioner',
+        legend: 'drilling',
         data: 40,
         color: 'rgb(2, 178, 175)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '61%',
       },
       {
-        legend: 'car_horn',
+        legend: 'enginge_idling',
         data: 5,
         color:  'rgb(46, 150, 255)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '8%',
       },
       {
-        legend: 'children_playing',
+        legend: 'gun_shot',
         data: 20,
         color: 'rgb(184, 0, 216)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '31%',
       },
-      {
-        legend: 'dog_bark',
-        data: 20,
-        color: 'rgb(96, 0, 155)',
-        xAxisCalloutData: '2020/04/30',
-        yAxisCalloutData: '31%',
-      },
+    //   {
+    //     legend: 'dog_bark',
+    //     data: 20,
+    //     color: 'rgb(96, 0, 155)',
+    //     xAxisCalloutData: '2020/04/30',
+    //     yAxisCalloutData: '31%',
+    //   },
     ];
 
     const secondChartPoints= [
       {
-        legend: 'air_conditioner',
+        legend: 'drilling',
         data: 30,
         color: 'rgb(2, 178, 175)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '33%',
       },
       {
-        legend: 'car_horn',
+        legend: 'enginge_idling',
         data: 20,
         color:  'rgb(46, 150, 255)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '22%',
       },
       {
-        legend: 'children_playing',
+        legend: 'gun_shot',
         data: 40,
         color: 'rgb(184, 0, 216)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '45%',
       },
-      {
-        legend: 'dog_bark',
-        data: 20,
-        color: 'rgb(96, 0, 155)',
-        xAxisCalloutData: '2020/04/30',
-        yAxisCalloutData: '31%',
-      },
+    //   {
+    //     legend: 'dog_bark',
+    //     data: 20,
+    //     color: 'rgb(96, 0, 155)',
+    //     xAxisCalloutData: '2020/04/30',
+    //     yAxisCalloutData: '31%',
+    //   },
     ];
 
     const thirdChartPoints = [
       {
-        legend: 'air_conditioner',
+        legend: 'drilling',
         data: 44,
         color: 'rgb(2, 178, 175)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '43%',
       },
       {
-        legend: 'car_horn',
+        legend: 'enginge_idling',
         data: 28,
         color:  'rgb(46, 150, 255)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '27%',
       },
       {
-        legend: 'children_playing',
+        legend: 'gun_shot',
         data: 30,
         color: 'rgb(184, 0, 216)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '30%',
       },
-      {
-        legend: 'dog_bark',
-        data: 20,
-        color: 'rgb(96, 0, 155)',
-        xAxisCalloutData: '2020/04/30',
-        yAxisCalloutData: '31%',
-      },
+    //   {
+    //     legend: 'dog_bark',
+    //     data: 20,
+    //     color: 'rgb(96, 0, 155)',
+    //     xAxisCalloutData: '2020/04/30',
+    //     yAxisCalloutData: '31%',
+    //   },
     ];
 
     const fourthChartPoints = [
       {
-        legend: 'air_conditioner',
+        legend: 'drilling',
         data: 88,
         color: 'rgb(2, 178, 175)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '63%',
       },
       {
-        legend: 'car_horn',
+        legend: 'enginge_idling',
         data: 22,
         color: 'rgb(46, 150, 255)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '16%',
       },
       {
-        legend: 'children_playing',
+        legend: 'gun_shot',
         data: 30,
         color: 'rgb(184, 0, 216)',
         xAxisCalloutData: '2020/04/30',
         yAxisCalloutData: '21%',
       },
-      {
-        legend: 'dog_bark',
-        data: 20,
-        color: 'rgb(96, 0, 155)',
-        xAxisCalloutData: '2020/04/30',
-        yAxisCalloutData: '31%',
-      },
+    //   {
+    //     legend: 'dog_bark',
+    //     data: 20,
+    //     color: 'rgb(96, 0, 155)',
+    //     xAxisCalloutData: '2020/04/30',
+    //     yAxisCalloutData: '31%',
+    //   },
     ];
 
     const data = [
@@ -246,6 +246,10 @@ export class Barchart extends React.Component{
       {
         chartData: firstChartPoints,
         xAxisPoint: 100,
+      },
+      {
+        chartData: firstChartPoints,
+        xAxisPoint: 120,
       },
     ];
 

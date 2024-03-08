@@ -2,13 +2,12 @@ import React from "react";
 import { PieChart } from "@mui/x-charts/PieChart";
 
 const data = [
-  { id: 0, value: 10, label: "air_conditioner" },
-  { id: 1, value: 15, label: "car_horn" },
-  { id: 2, value: 20, label: "children_playing" },
-  { id: 3, value: 30, label: "dog_bark" }
+  { id: 0, value: 10, label: "drilling" },
+  { id: 1, value: 15, label: "enginge_idling" },
+  { id: 2, value: 20, label: "gun_shot" },
 ];
 
-export function Pieactive() {
+export function Pieactive2() {
   return (
       <PieChart
         series={[
